@@ -128,3 +128,13 @@ body{
     padding: 2%;
     border-radius: 5%;
 }
+
+#skills{
+    width: 70%;
+    height: 50%;
+    border: 1px solid black;
+    display: grid;
+    margin-left: 20%;
+    margin-top: 10%;
+    grid-template-columns: auto auto auto auto;
+}
