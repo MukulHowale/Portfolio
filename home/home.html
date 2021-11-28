@@ -34,7 +34,7 @@
         </div>
     </div>
     <div id="b">
-        <!-- <div id="body_left">
+        <div id="body_left">
             <div>Hello!</div>
             <div>I'm Mukul Howale</div>
             <div>I'm a BackEnd Developer</div>
@@ -56,16 +56,15 @@
         </div>
         <div id="body_right">
             <img src="../images/20211015_121240.jpg" alt="">
-        </div> -->
-        
-
+        </div>
     </div>
 </body> 
 </html>
 <script type="module">
     import home from "/components/homeComp.js";
     import skills from "/components/skillsComp.js";
-    import project from "/components/projectComp.js"
+    import project from "/components/projectComp.js";
+    import contact from "/components/contactComp.js";
 
     document.getElementById("home").addEventListener("click", () =>{
         document.getElementById("b").innerHTML = home();
@@ -91,11 +90,11 @@
         document.getElementById("contact").style.textDecoration = "none";
     })
 
-    // document.getElementById("contact").addEventListener("click", () =>{
-    //     document.getElementById("b").innerHTML = skills();
-    //     document.getElementById("home").style.textDecoration = "none";
-    //     document.getElementById("skill").style.textDecoration = "none";
-    //     document.getElementById("project").style.textDecoration = "none";
-    //     document.getElementById("contact").style.textDecoration = "underline";
-    // })
+    document.getElementById("contact").addEventListener("click", () =>{
+        document.getElementById("b").innerHTML = contact();
+        document.getElementById("home").style.textDecoration = "none";
+        document.getElementById("skill").style.textDecoration = "none";
+        document.getElementById("project").style.textDecoration = "none";
+        document.getElementById("contact").style.textDecoration = "underline";
+    })
 </script>
