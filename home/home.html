@@ -34,7 +34,7 @@
         </div>
     </div>
     <div id="b">
-        <div id="body_left">
+        <!-- <div id="body_left">
             <div>Hello!</div>
             <div>I'm Mukul Howale</div>
             <div>I'm a BackEnd Developer</div>
@@ -43,7 +43,7 @@
                 and would love to have a chat with you!
             </p>
             <div>
-                <a href="">
+                <a href="https://github.com/MukulHowale">
                     <span class="iconify" data-icon="akar-icons:github-fill" style="color: black;" data-width="30" data-height="30"></span>
                 </a>
                 <a href="https://www.linkedin.com/in/mukulhowale">
@@ -56,7 +56,8 @@
         </div>
         <div id="body_right">
             <img src="../images/20211015_121240.jpg" alt="">
-        </div>
+        </div> -->
+        
 
     </div>
 </body> 
@@ -64,12 +65,37 @@
 <script type="module">
     import home from "/components/homeComp.js";
     import skills from "/components/skillsComp.js";
+    import project from "/components/projectComp.js"
 
     document.getElementById("home").addEventListener("click", () =>{
         document.getElementById("b").innerHTML = home();
+        document.getElementById("home").style.textDecoration = "underline";
+        document.getElementById("skill").style.textDecoration = "none";
+        document.getElementById("project").style.textDecoration = "none";
+        document.getElementById("contact").style.textDecoration = "none";
     })
 
     document.getElementById("skill").addEventListener("click", () =>{
         document.getElementById("b").innerHTML = skills();
+        document.getElementById("home").style.textDecoration = "none";
+        document.getElementById("skill").style.textDecoration = "underline";
+        document.getElementById("project").style.textDecoration = "none";
+        document.getElementById("contact").style.textDecoration = "none";
     })
+
+    document.getElementById("project").addEventListener("click", () =>{
+        document.getElementById("b").innerHTML = project();
+        document.getElementById("home").style.textDecoration = "none";
+        document.getElementById("skill").style.textDecoration = "none";
+        document.getElementById("project").style.textDecoration = "underline";
+        document.getElementById("contact").style.textDecoration = "none";
+    })
+
+    // document.getElementById("contact").addEventListener("click", () =>{
+    //     document.getElementById("b").innerHTML = skills();
+    //     document.getElementById("home").style.textDecoration = "none";
+    //     document.getElementById("skill").style.textDecoration = "none";
+    //     document.getElementById("project").style.textDecoration = "none";
+    //     document.getElementById("contact").style.textDecoration = "underline";
+    // })
 </script>

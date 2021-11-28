@@ -8,7 +8,7 @@ let home = () =>{
         and would love to have a chat with you!
     </p>
     <div>
-        <a href="">
+    <a href="https://github.com/MukulHowale">
             <span class="iconify" data-icon="akar-icons:github-fill" style="color: black;" data-width="30" data-height="30"></span>
         </a>
         <a href="https://www.linkedin.com/in/mukulhowale">
