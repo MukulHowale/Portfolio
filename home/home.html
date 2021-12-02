@@ -71,6 +71,7 @@
     import skills from "/components/skillsComp.js";
     import project from "/components/projectComp.js";
     import contact from "/components/contactComp.js";
+    import about from "/components/aboutComp.js";
 
     document.getElementById("home").addEventListener("click", () =>{
         document.getElementById("b").innerHTML = home();
@@ -81,14 +82,14 @@
         document.getElementById("contact").style.textDecoration = "none";
     })
 
-    // document.getElementById("about").addEventListener("click", () =>{
-    //     document.getElementById("b").innerHTML = skills();
-    //     document.getElementById("home").style.textDecoration = "none";
-    //     document.getElementById("about").style.textDecoration = "underline";
-    //     document.getElementById("skill").style.textDecoration = "none";
-    //     document.getElementById("project").style.textDecoration = "none";
-    //     document.getElementById("contact").style.textDecoration = "none";
-    // })
+    document.getElementById("about").addEventListener("click", () =>{
+        document.getElementById("b").innerHTML = about();
+        document.getElementById("home").style.textDecoration = "none";
+        document.getElementById("about").style.textDecoration = "underline";
+        document.getElementById("skill").style.textDecoration = "none";
+        document.getElementById("project").style.textDecoration = "none";
+        document.getElementById("contact").style.textDecoration = "none";
+    })
 
     document.getElementById("skill").addEventListener("click", () =>{
         document.getElementById("b").innerHTML = skills();

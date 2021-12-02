@@ -384,3 +384,24 @@ body{
     background-color: black;
     text-decoration: none;
 }
+
+#a{
+    width: 52%;
+    height: 80%;
+    margin-left: 25%;
+    margin-top: 6%;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+#a > span:nth-child(1){
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#a > span:nth-child(4){
+    font-size: 28px;
+    font-weight: 400;
+}
