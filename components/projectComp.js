@@ -24,7 +24,7 @@ let project = () =>{
                 <a href="https://github.com/MukulHowale/Project_Assure">
                     <span>Source Code</span>
                 </a>
-                <a href="">
+                <a href="https://projectassure.netlify.app/html/registration.html">
                     <span>Check Live</span>
                 </a>
             </div>
