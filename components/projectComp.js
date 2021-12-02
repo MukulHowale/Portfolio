@@ -9,8 +9,22 @@ let project = () =>{
                 Assure
             </div>
             <div class="details">
-                An insurance booking application
+                <div>
+                A mobile first insurance booking application
                 used to buy all sorts of insurances.
+                </div>
+                <div>
+                Area of responsibility : 
+                    <div>
+                    1. Implemented login and sign-up page with desing 
+                    and authentication.
+                    </div>
+                    <div>
+                    2. Designed insurance booking pages flow.
+                    </div>
+                </div>
+                A colaborative project completed in 10 days 
+                with a team of 6 members.
             </div>
             <div class="stack">
                 <span>HTML5</span>
@@ -39,8 +53,26 @@ let project = () =>{
                 Expedia Clone
             </div>
             <div class="details">
-                A travel booking website where a 
-                user can plan their entire journy.
+                <div>
+                    A travel booking website where a 
+                    user can plan their entire journey.
+                </div>
+                <div>
+                Area of responsibility : 
+                    <div>
+                    1. Implemented search functionality.
+                    </div>
+                    <div>
+                    2. Laid out the database schema and build the REST
+                    API for the same.
+                    </div>
+                    <div>
+                    3. Developed a feature which helps users choose customize
+                    dates.
+                    </div>
+                </div>
+                A colaborative project completed in 6 days 
+                with a team of 3 members.
             </div>
             <div class="stack">
                 <span>HTML5</span>
@@ -67,8 +99,26 @@ let project = () =>{
                 Ketto Clone
             </div>
             <div class="details">
-                An fundraising website which lets users
-                raise funds for the people in need.
+                <div>
+                    A fundraising website which lets users
+                    raise funds for the people in need.
+                </div>
+                <div>
+                Area of responsibility : 
+                    <div>
+                    1. Developed the landing page UI with carousel
+                    functionality.
+                    </div>
+                    <div>
+                    2. Developed the donation page UI.
+                    </div>
+                    <div>
+                    3. Developed the feature to update the total donation
+                    amount after the user has donated.
+                    </div>
+                </div>
+                A colaborative project completed in 6 days 
+                with a team of 3 members.
             </div>
             <div class="stack">
                 <span>HTML5</span>

@@ -19,6 +19,9 @@
             </div>
         </div>
         <div id="right">
+            <div id="resume">
+                <span>Resume</span>
+            </div>
             <div id="contact">
                 <span>Contact</span>
             </div>
@@ -27,6 +30,9 @@
             </div>
             <div id="skill">
                 <span>Skills</span>
+            </div>
+            <div id="about">
+                <span>About</span>
             </div>
             <div id="home">
                 <span>Home</span>
@@ -69,14 +75,25 @@
     document.getElementById("home").addEventListener("click", () =>{
         document.getElementById("b").innerHTML = home();
         document.getElementById("home").style.textDecoration = "underline";
+        document.getElementById("about").style.textDecoration = "none";
         document.getElementById("skill").style.textDecoration = "none";
         document.getElementById("project").style.textDecoration = "none";
         document.getElementById("contact").style.textDecoration = "none";
     })
 
+    // document.getElementById("about").addEventListener("click", () =>{
+    //     document.getElementById("b").innerHTML = skills();
+    //     document.getElementById("home").style.textDecoration = "none";
+    //     document.getElementById("about").style.textDecoration = "underline";
+    //     document.getElementById("skill").style.textDecoration = "none";
+    //     document.getElementById("project").style.textDecoration = "none";
+    //     document.getElementById("contact").style.textDecoration = "none";
+    // })
+
     document.getElementById("skill").addEventListener("click", () =>{
         document.getElementById("b").innerHTML = skills();
         document.getElementById("home").style.textDecoration = "none";
+        document.getElementById("about").style.textDecoration = "none";
         document.getElementById("skill").style.textDecoration = "underline";
         document.getElementById("project").style.textDecoration = "none";
         document.getElementById("contact").style.textDecoration = "none";
@@ -85,6 +102,7 @@
     document.getElementById("project").addEventListener("click", () =>{
         document.getElementById("b").innerHTML = project();
         document.getElementById("home").style.textDecoration = "none";
+        document.getElementById("about").style.textDecoration = "none";
         document.getElementById("skill").style.textDecoration = "none";
         document.getElementById("project").style.textDecoration = "underline";
         document.getElementById("contact").style.textDecoration = "none";
@@ -93,8 +111,13 @@
     document.getElementById("contact").addEventListener("click", () =>{
         document.getElementById("b").innerHTML = contact();
         document.getElementById("home").style.textDecoration = "none";
+        document.getElementById("about").style.textDecoration = "none";
         document.getElementById("skill").style.textDecoration = "none";
         document.getElementById("project").style.textDecoration = "none";
         document.getElementById("contact").style.textDecoration = "underline";
+    })
+
+    document.getElementById("resume").addEventListener("click", () =>{
+        window.open("https://drive.google.com/file/d/1zOqKSmfIx0CzukWf7KEYAHf8h2O0ZgqW/view?usp=sharing");
     })
 </script>
