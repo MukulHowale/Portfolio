@@ -1,6 +1,6 @@
 let about = () =>{
     return`<div id="a">
-    <span>Hello again!</span> Let me introduce myself again, my name is
+    <span>Hello!</span> Let me introduce myself, my name is
     Mukul Howale and I have a hands on experience working 
     on both front-end and back-end parts of application.
     <br>

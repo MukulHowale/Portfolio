@@ -38,6 +38,9 @@
             <div id="home">
                 <span>Home</span>
             </div>
+            <div id="iconDrop">
+                <span class="iconify" data-icon="fontisto:nav-icon-a" style="color: black;" data-width="30" data-height="30"></span>
+            </div>
         </div>
     </div>
     <div id="b">
@@ -63,6 +66,26 @@
         </div>
         <div id="body_right">
             <img src="../images/20211015_121240.jpg" alt="">
+        </div>
+    </div>
+    <div id="navTop">
+        <div id="homeNav">
+            Home
+        </div>
+        <div id="aboutNav">
+            About
+        </div>
+        <div id="skillNav">
+            Skills
+        </div>
+        <div id="proNav">
+            Projects
+        </div>
+        <div id="contNav">
+            Contact
+        </div>
+        <div id="resNav">
+            Resume
         </div>
     </div>
 </body> 
@@ -121,5 +144,48 @@
 
     document.getElementById("resume").addEventListener("click", () =>{
         window.open("https://drive.google.com/file/d/1zOqKSmfIx0CzukWf7KEYAHf8h2O0ZgqW/view?usp=sharing");
+    })
+
+    document.getElementById("logo").addEventListener("click", () =>{
+        window.location = "home.html";
+    })
+
+    document.getElementById("iconDrop").addEventListener("click", () =>{
+        if(document.getElementById("navTop").style.visibility == "hidden"){
+            document.getElementById("navTop").style.visibility = "visible";
+        }
+        else{
+            document.getElementById("navTop").style.visibility = "hidden";
+        }
+    })
+
+    document.getElementById("homeNav").addEventListener("click", () =>{
+        document.getElementById("b").innerHTML = home();
+        document.getElementById("navTop").style.visibility = "hidden";
+    })
+
+    document.getElementById("aboutNav").addEventListener("click", () =>{
+        document.getElementById("b").innerHTML = about();
+        document.getElementById("navTop").style.visibility = "hidden";
+    })
+
+    document.getElementById("skillNav").addEventListener("click", () =>{
+        document.getElementById("b").innerHTML = skills();
+        document.getElementById("navTop").style.visibility = "hidden";
+    })
+
+    document.getElementById("proNav").addEventListener("click", () =>{
+        document.getElementById("b").innerHTML = project();
+        document.getElementById("navTop").style.visibility = "hidden";
+    })
+
+    document.getElementById("contNav").addEventListener("click", () =>{
+        document.getElementById("b").innerHTML = contact();
+        document.getElementById("navTop").style.visibility = "hidden";
+    })
+
+    document.getElementById("resNav").addEventListener("click", () =>{
+        window.open("https://drive.google.com/file/d/1zOqKSmfIx0CzukWf7KEYAHf8h2O0ZgqW/view?usp=sharing");
+        document.getElementById("navTop").style.visibility = "hidden";
     })
 </script>
