@@ -425,6 +425,7 @@ body{
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.781);
     animation: normal;
+    visibility: hidden;
 }
 
 #navTop > div{
