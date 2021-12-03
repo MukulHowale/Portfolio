@@ -151,12 +151,16 @@
     })
 
     document.getElementById("iconDrop").addEventListener("click", () =>{
-        if(document.getElementById("navTop").style.visibility == "hidden"){
-            document.getElementById("navTop").style.visibility = "visible";
-        }
-        else{
+
+        if(document.getElementById("navTop").style.visibility == "visible"){
             document.getElementById("navTop").style.visibility = "hidden";
         }
+        else{
+            document.getElementById("navTop").style.visibility = "visible";
+        }
+
+        
+
     })
 
     document.getElementById("homeNav").addEventListener("click", () =>{
