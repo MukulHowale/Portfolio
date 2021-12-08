@@ -14,7 +14,7 @@ let home = () =>{
         <a href="https://www.linkedin.com/in/mukulhowale">
             <span class="iconify" data-icon="akar-icons:linkedin-fill" style="color: black;" data-width="30" data-height="30"></span>
         </a>
-        <a href="https://drive.google.com/file/d/1zOqKSmfIx0CzukWf7KEYAHf8h2O0ZgqW/view?usp=sharing" style="text-decoration: none;">
+        <a href="https://drive.google.com/file/d/1r5v_H0IXKbqQwrBmu7_Cw4cCF7pXLICo/view?usp=sharing" style="text-decoration: none;">
             <span><div>RESUME</div></span>
         </a>
     </div>
