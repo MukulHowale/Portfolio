@@ -52,7 +52,7 @@
 
 @media only screen and (max-width: 780px) {
 
-    .p{
+    #p{
         margin-left: 12%;
     }
 
@@ -111,7 +111,7 @@
         margin-left: 13%;
     }
 
-    .p{
+    #p{
         margin-left: 12%;
     }
 
@@ -132,6 +132,7 @@
         margin-left: 18%;
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        margin-bottom: 30px;
     }
 
     #c > div:nth-child(1) {
@@ -150,6 +151,26 @@
         padding-top: 30px;
     }
 
+    .head{
+        margin-bottom: 70px;
+    }
+
+    #aboutHead{
+        margin-top: 70px;
+    }
+    
+    #skillsHead{
+        margin-top: 100px;
+    }
+    
+    #proHead{
+        margin-top: 100px;
+    }
+    
+    #contHead{
+        margin-top: 100px;
+    }
+
 }
 
 @media only screen and (max-width: 380px){
@@ -160,6 +181,27 @@
 
     #c{
         margin-left: 13%;
+        margin-bottom: 30px;
+    }
+
+    .head{
+        margin-bottom: 70px;
+    }
+
+    #aboutHead{
+        margin-top: 70px;
+    }
+    
+    #skillsHead{
+        margin-top: 100px;
+    }
+    
+    #proHead{
+        margin-top: 100px;
+    }
+    
+    #contHead{
+        margin-top: 100px;
     }
 
 }
@@ -172,10 +214,30 @@
 
     #c{
         margin-left: 9%;
+        margin-bottom: 30px;
     }
 
     #body_left{
         margin-left: 12%;
     }
 
+    .head{
+        margin-bottom: 70px;
+    }
+
+    #aboutHead{
+        margin-top: 70px;
+    }
+    
+    #skillsHead{
+        margin-top: 100px;
+    }
+    
+    #proHead{
+        margin-top: 100px;
+    }
+    
+    #contHead{
+        margin-top: 100px;
+    }
 }
